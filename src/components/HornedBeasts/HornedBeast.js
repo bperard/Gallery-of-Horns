@@ -31,7 +31,7 @@ class HornedBeast extends React.Component {
       alertRender: true
     }));
 
-    const alertTimeout = setTimeout(this.handleAlertRender, 1500);
+    setTimeout(this.handleAlertRender, 1500);
   }
 
   render() {
