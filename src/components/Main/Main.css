@@ -1,0 +1,8 @@
+.beastContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+}
