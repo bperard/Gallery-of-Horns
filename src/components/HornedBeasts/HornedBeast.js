@@ -8,7 +8,8 @@ class HornedBeast extends React.Component {
     this.state = {
       favorites: 0,
       alertTimer: 0,
-      alertRender: false
+      alertRender: false,
+      index: this.props.index
     }
   }
 
@@ -36,8 +37,8 @@ class HornedBeast extends React.Component {
 
   render() {
     return(
-      <div className="card">
-        <h2>
+      <div className="card" >
+        <h2 onClick={this.props.handleModalOpen}>
           {this.props.title}
         </h2>
         <img 

@@ -34,6 +34,18 @@
 
 - Actual time needed to complete: 60min
 
+## Lab 3
+
+**Number and name of feature**: 1 Display Modal
+
+- Estimate of time needed to complete: 45min
+
+- Start time: 9:28
+
+- Finish time: 10:14
+
+- Actual time needed to complete: 
+
 <!-- Feature Template
 **Number and name of feature**: 
 
