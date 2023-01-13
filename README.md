@@ -46,6 +46,18 @@
 
 - Actual time needed to complete: 
 
+## Lab 4
+
+**Number and name of feature**: 1 Filter by Numbers of Horns
+
+- Estimate of time needed to complete: 45min
+
+- Start time: 10:27
+
+- Finish time: 11:30
+
+- Actual time needed to complete: 63min
+
 <!-- Feature Template
 **Number and name of feature**: 
 

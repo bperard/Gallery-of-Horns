@@ -27,11 +27,20 @@ class App extends React.Component {
   }
 
   render() {
+    const hornSelectOptions = [];
+    beastData.forEach(beast => {
+      if (!hornSelectOptions.includes(beast.horns)) {
+        hornSelectOptions.push(beast.horns);
+      }
+    });
+    hornSelectOptions.sort((a,b) => a - b);
+    
     return (
       <>
         <Header />
         <Main
           beastData={beastData}
+          hornSelectOptions={hornSelectOptions}
           handleModalOpen={this.handleModalOpen}
         />
         {this.state.modalBeast ? <SelectedBeast
